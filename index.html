@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Mentalista</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <img src="https://images.vexels.com/media/users/3/252016/isolated/preview/16524027ec6ed72507a50aada309252d-curso-de-cor-rosa-do-ca-rebro-humano.png" class="cerebro" alt="Desenho de um cérebro.">
+            <h1>O Mentalista</h1>
+            <input type="button" class="mudartema" onclick="mudartema()" value="Alterar Tema">
+        </div>
+    </header>
+    <main>
+        <div class="principal">
+            <p><label for="chute">Digite um número de 0 a 10:</label></p>
+
+            <p><input type="number" name="chute" class="chute" id="chute" placeholder="Digite aqui."></p>
+
+            <p><input type="button" class="chutar" id="chutar" value="Chutar"></p>
+
+            <p class="resultado">Você tem três chances para <br> adivinhar o número secreto.</p>
+
+            <p><input type="button" class="jogar-novamente" value="Jogar novamente"></p>
+
+            <input type="button" class="zerar-placar" value="Zerar placar">
+
+            <table class="placar">
+                <thead>
+                    <tr>
+                        <th colspan="2">Placar</th>
+                    </tr>
+                    <tr>
+                        <th>Vitórias</th>
+                        <th>Derrotas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="vitoria">0</td>
+                        <td id="derrota">0</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            
+        </div>
+    </main>
+    <footer>
+        <a href="https://www.linkedin.com/in/edgard-lino/"><img class="logo-linkedin" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Logo do linkedin"></a>
+        <p><a href="https://www.linkedin.com/in/edgard-lino/">Edgard Lino da Silva</a></p>
+        <p>&copy; Imersão Dev Alura 2022</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+

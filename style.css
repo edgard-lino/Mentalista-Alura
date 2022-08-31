@@ -1,0 +1,252 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #5d907d;
+}
+
+header {
+    background: #36362a;
+    padding: 3em 0;
+}
+
+.caixa {
+    width: 640px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cerebro {
+    margin-left: 0.2em;
+    width: 8em;
+    transition: 2s;
+}
+
+.cerebro:hover {
+    transform: scale(1.4);
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: 1em;
+    font-weight: bold;
+    font-size: 2.7em;
+    color: #e4d3a7;
+    margin-left: 0.7em;
+}
+
+.mudartema {
+    position: absolute;
+    right: 20px;
+    top: 3.3em;
+    background: #36362a;
+    color: white;
+    width: 10em;
+    padding: 1em 0;
+    border-radius: 5px;
+    border: 2px solid white;
+    transition: 500ms;
+}
+
+.mudartema:hover {
+    background: #50503e;
+    transform: scale(1.2);
+}
+
+.mudartema:active {
+    background: black;
+}
+
+main {
+    /*background: linear-gradient(#5d907d85, white);*/
+    background: url(https://cdn11.bigcommerce.com/s-491hew/products/3758/images/5237/7570f0f1-b0c7-4bdf-85ab-22c719b29df5__44234.1651239002.500.525.jpg?c=2);    
+    padding: 2em 0;
+    
+}
+
+.principal {
+    
+    width: 640px;
+    background: #e2dccbd9;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+    margin: 0 auto;
+    padding: 2em 0;
+    position: relative;
+}
+
+.principal p {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 0 1em 0;
+    line-height: 1.5em;
+}
+
+.chute {
+    font-size: 0.7em;
+    width: 20%;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+.chutar {
+    background: #f1667c;
+    color: white;
+    font-size: 0.7em;
+    width: 10em;
+    padding: 0.7em 0;
+    border-radius: 10px;
+    border: 0;
+    transition: 1s;
+}
+
+.chutar:hover {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.301);
+    background: #eb4d65;
+    transform: scale(1.1);
+}
+
+.jogar-novamente {
+    background: #36362a;
+    color: white;
+    font-size: 0.7em;
+    width: 10em;
+    padding: 0.7em 0;
+    border-radius: 10px;
+    border: 0;
+    transition: 1s;
+}
+
+.jogar-novamente:hover {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.301);
+    background: #555542;
+    transform: scale(1.1);
+}
+
+.zerar-placar {
+    position: relative;
+    font-size: 1em;
+    left: 23em;
+    top: 3em;
+    background: #f1667c;
+    color: white;
+    width: 10em;
+    padding: 0.7em 0;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 1s;
+    border: 0;
+}
+
+.zerar-placar:hover {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.301);
+    background: #eb4d65;
+    transform: scale(1.1);
+}
+
+.placar {
+    position: relative;
+    left: 7em;
+    top: -1em;
+}
+
+.placar th, .placar td {
+    border: 2px solid white;
+    padding: 0.3em 1em;
+    text-align: center;
+}
+
+.placar th {
+    background: #5d907d;
+    color: white;
+}
+
+.placar td {
+    background: rgba(101, 141, 126, 0.644);
+    color: #36362a;
+    font-weight: bold;
+}
+
+footer {
+    background: #5d907d;
+    padding: 3em;
+    text-align: center;
+}
+
+footer p {
+    color: black;
+    font-size: 0.8em;
+    font-style: italic;
+    line-height: 3em;
+}
+
+footer a {
+    color: black;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.logo-linkedin {
+    width: 2em;
+}
+
+.dark header, .dark, .dark footer {
+    background: black
+}
+
+.dark .principal {
+    background: #444444;
+}
+
+.dark .principal p, .dark .resultado {
+    color: white;
+}
+
+.dark main {
+    background: #2f2f2f;
+}
+
+.dark footer p, .dark footer a {
+    color: white;
+}
+
+
+
+
+/* deixar o placar pra depois
+
+.placar {
+    width: 20%;
+    display: block;
+    vertical-align: top;
+}
+
+.resultado p {
+    
+    width: 20%;
+    padding: 1em;
+}
+
+
+
+
+
+html do placar
+
+<table class="placar">
+    <thead>
+        <tr>
+            <th colspan="2">Placar</th>
+        </tr>
+        <tr>
+            <th>Vitórias</th>
+            <th>Derrotas</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+    </tbody>
+</table>
+
+*/
