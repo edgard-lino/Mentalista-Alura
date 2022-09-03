@@ -2,19 +2,28 @@ function mudartema() {
    document.body.classList.toggle("dark");
 }
 
+
+
 let chute = document.getElementById('chute');
+
 let resultado = document.querySelector('.resultado');
+
 let numeroSecreto;
+
 let contador = 0;
+
 let vitoria = 0;
+
 let derrota = 0;
+
 console.log(derrota);
+
 document.querySelector('#chutar').onclick = function () {
     if (contador === 0) {
         numeroSecreto = parseInt(Math.random()*11);
     }
 
-    if (isNumero(chute.value) && chute.value.length != 0) {
+   if (isNumero(chute.value) && chute.value.length != 0) {
         if (Number(chute.value) === numeroSecreto) {
             resultado.innerHTML = `Você acertou, o número secreto é ${numeroSecreto}.<br>Parabéns!!!`;
             vitoria++;
