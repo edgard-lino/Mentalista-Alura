@@ -121,31 +121,9 @@ main {
     transform: scale(1.1);
 }
 
-.zerar-placar {
-    position: relative;
-    font-size: 1em;
-    left: 23em;
-    top: 3em;
-    background: #f1667c;
-    color: white;
-    width: 10em;
-    padding: 0.7em 0;
-    border-radius: 10px;
-    border: 2px solid white;
-    transition: 1s;
-    border: 0;
-}
-
-.zerar-placar:hover {
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.301);
-    background: #eb4d65;
-    transform: scale(1.1);
-}
-
 .placar {
     position: relative;
-    left: 7em;
-    top: -1em;
+    left: 7em; 
 }
 
 .placar th, .placar td {
@@ -163,6 +141,27 @@ main {
     background: rgba(101, 141, 126, 0.644);
     color: #36362a;
     font-weight: bold;
+}
+
+.zerar-placar {
+    position: relative;
+    font-size: 1em;
+    left: 21em;
+    top: -4em;
+    background: #f1667c;
+    color: white;
+    width: 10em;
+    padding: 0.7em 0;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 1s;
+    border: 0;
+}
+
+.zerar-placar:hover {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.301);
+    background: #eb4d65;
+    transform: scale(1.1);
 }
 
 footer {
@@ -208,45 +207,80 @@ footer a {
     color: white;
 }
 
+@media screen and (max-width: 480px) {
 
+    header {
+        padding: 1em 0;
+    }
 
+    .principal {
+        width: 95%;
+    }
 
-/* deixar o placar pra depois
+    .caixa {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
 
-.placar {
-    width: 20%;
-    display: block;
-    vertical-align: top;
-}
-
-.resultado p {
+    .cerebro {
+        margin: 0 auto;
+        transition: 0;
+    }
     
-    width: 20%;
-    padding: 1em;
+    .cerebro:hover {
+        transform: scale(1);
+    }
+
+    h1 {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .mudartema {
+        position: static;
+        margin: 2em 0 1em 0;
+    }
+    
+    .mudartema:hover {
+        transform: scale(1);
+    }
+    
+    .mudartema:active {
+        transform: scale(1.1);
+    }
+
+    .chute {
+        width: 40%;
+    }
+
+    .placar {
+        position: relative;
+        left: 20%;
+        width: 60%; 
+    }
+
+    .zerar-placar {
+        position: relative;
+        left: 25%;
+        right: auto;
+        top: 0;
+        width: 50%;
+        transition: 500ms;
+        margin: 1em 0 0 0;
+    }
+    
+    .zerar-placar:hover {
+        box-shadow: none;
+        background: #f1667c;
+        transform: scale(1);
+    }
+
+    .zerar-placar:active {
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.301);
+        background: #eb4d65;
+        transform: scale(1.1);
+    }
+
 }
-
-
-
-
-
-html do placar
-
-<table class="placar">
-    <thead>
-        <tr>
-            <th colspan="2">Placar</th>
-        </tr>
-        <tr>
-            <th>Vitórias</th>
-            <th>Derrotas</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>1</td>
-            <td>2</td>
-        </tr>
-    </tbody>
-</table>
-
-*/
