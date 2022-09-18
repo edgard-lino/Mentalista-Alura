@@ -21,3 +21,18 @@
     padding: 0.3em 1em;
     text-align: center;
 }
+
+@media screen and (min-width: 0) {
+    .principal__conteudo-placar {
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (min-width: 640px) {
+    .principal__conteudo-placar {
+        flex-direction: row;
+    }
+    
+}
+

@@ -1,7 +1,21 @@
 .cabecalho__conteudo {
     align-items: center;
     display: flex;
-    justify-content: space-between;
     margin: 0 auto;
-    width: 640px;
+}
+
+@media screen and (min-width: 0) {
+    .cabecalho__conteudo {
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .cabecalho__conteudo {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 640px;
+    }
 }

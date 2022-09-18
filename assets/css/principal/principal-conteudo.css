@@ -5,7 +5,7 @@
     margin: 0 auto;
     padding: 2em 0;
     position: relative;
-    width: 640px;
+    
 }
 
 .principal__conteudo p {
@@ -21,4 +21,16 @@
 
 .dark .principal__conteudo {
     background: #444444;
+}
+
+@media screen and (min-width: 0) {
+    .principal__conteudo {
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .principal__conteudo {
+        width: 640px;
+    }
 }
