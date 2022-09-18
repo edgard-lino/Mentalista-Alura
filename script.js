@@ -6,7 +6,7 @@ function mudartema() {
 
 let chute = document.getElementById('chute');
 
-let resultado = document.querySelector('.resultado');
+let resultado = document.getElementById('resultado');
 
 let numeroSecreto;
 
