@@ -1,0 +1,9 @@
+.rodape__credito-aluno {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.rodape__credito-aluno:hover {
+    text-decoration: underline;
+}

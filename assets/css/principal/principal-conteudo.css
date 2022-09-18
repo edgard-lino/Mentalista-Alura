@@ -1,0 +1,24 @@
+.principal__conteudo {
+    background: #e2dccbd9;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+    margin: 0 auto;
+    padding: 2em 0;
+    position: relative;
+    width: 640px;
+}
+
+.principal__conteudo p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin: 0 0 1em 0;
+    text-align: center;
+}
+
+.dark .principal__conteudo p {
+    color: white;
+}
+
+.dark .principal__conteudo {
+    background: #444444;
+}

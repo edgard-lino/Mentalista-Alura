@@ -1,0 +1,18 @@
+.cabecalho__botao {
+    background: #36362a;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 1em 0;
+    transition: 500ms;
+    width: 10em;
+}
+
+.cabecalho__botao:hover {
+    background: black;
+    transform: scale(1.2);
+}
+
+.cabecalho__botao:active {
+    background: grey;
+}

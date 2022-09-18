@@ -1,0 +1,14 @@
+.rodape {
+    background: #36362a;
+    padding: 3em;
+    text-align: center;
+}
+
+.dark .rodape {
+    background: black;
+}
+
+
+
+
+

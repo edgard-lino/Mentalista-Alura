@@ -1,0 +1,7 @@
+.cabecalho__conteudo {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 640px;
+}

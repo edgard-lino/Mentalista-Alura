@@ -1,0 +1,20 @@
+.principal__conteudo-botao-jogar {
+    background: #36362a;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    font-size: 0.7em;
+    padding: 0.7em 0;
+    transition: 1s;
+    width: 10em;
+}
+
+.principal__conteudo-botao-jogar:hover {
+    background: #555542;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.301);
+    transform: scale(1.1);
+}
+
+.dark .principal__conteudo-botao-jogar {
+    background: #555542;
+}

@@ -1,0 +1,9 @@
+.cabecalho {
+    background: #36362a;
+    padding: 0.5em 0;
+}
+
+.dark .cabecalho {
+    background: black
+}
+

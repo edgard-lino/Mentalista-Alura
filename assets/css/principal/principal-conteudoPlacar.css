@@ -1,0 +1,23 @@
+.principal__conteudo-placar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 7rem;
+}
+
+.principal__conteudo-placar th {
+    background: #5d907d;
+    border: 2px solid white;
+    color: white;
+    padding: 0.3em 1em;
+    text-align: center;
+}
+
+.principal__conteudo-placar td {
+    background: rgba(101, 141, 126, 0.644);
+    border: 2px solid white;
+    color: #36362a;
+    font-weight: bold;
+    padding: 0.3em 1em;
+    text-align: center;
+}

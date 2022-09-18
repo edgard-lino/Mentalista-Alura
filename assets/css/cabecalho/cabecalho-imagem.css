@@ -1,0 +1,8 @@
+.cabecalho__imagem {
+    transition: 2s;
+    width: 8em;
+}
+
+.cabecalho__imagem:hover {
+    transform: scale(1.4);
+}
