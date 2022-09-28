@@ -1,0 +1,9 @@
+.principal {
+    background-image: url(../img/fundo.jpg);    
+    padding: 2em 0;
+}
+
+.dark .principal {
+    background-image: url(../img/fundo-escuro.jpg);
+}
+
