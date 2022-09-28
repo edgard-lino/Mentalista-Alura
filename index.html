@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="./assets/css/principal/principal-conteudo.css">
     <link rel="stylesheet" href="./assets/css/principal/principal-conteudoBotaoZerar.css">
     <link rel="stylesheet" href="./assets/css/principal/principal-conteudoPlacar.css">
-    <link rel="stylesheet" href="./assets/css/principal/principal.css">
+    <link rel="stylesheet" href="./assets/css/principal.css">
     <link rel="stylesheet" href="./assets/css/principal/principal-conteudoBotaoJogar.css">
     <link rel="stylesheet" href="./assets/css/principal/principal-conteudoChute.css">
     <link rel="stylesheet" href="./assets/css/principal/principal-conteudoBotaoChutar.css">
@@ -27,7 +27,7 @@
 <body>
     <header class="cabecalho">
         <div class="cabecalho__conteudo">
-            <img class="cabecalho__imagem" src="https://images.vexels.com/media/users/3/252016/isolated/preview/16524027ec6ed72507a50aada309252d-curso-de-cor-rosa-do-ca-rebro-humano.png" class="cerebro" alt="Desenho de um cérebro.">
+            <img class="cabecalho__imagem" src="./assets/img/cerebro.png" class="cerebro" alt="Desenho de um cérebro.">
             <h1 class="cabecalho__titulo">Mentalista</h1>
             <input type="button" class="cabecalho__botao" onclick="mudartema()" value="Alterar Tema">
         </div>
@@ -42,7 +42,7 @@
 
             <p id="resultado">Você tem três chances para <br> adivinhar o número secreto.</p>
 
-            <p><input type="button" class="principal__conteudo-botao-jogar" value="Jogar novamente"></p>
+            <p><input type="button" class="principal__conteudo-botao-jogar" id="jogar-novamente" value="Jogar novamente"></p>
 
             <section class="principal__conteudo-placar">
                 <table>
@@ -63,7 +63,7 @@
                     </tbody>
                 </table>
     
-                <input type="button" class="principal__conteudo-botao-zerar" value="Zerar placar">
+                <input type="button" class="principal__conteudo-botao-zerar" id="zerar-placar" value="Zerar placar">
             </section>
             
         </div>
