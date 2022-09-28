@@ -5,16 +5,14 @@
     color: white;
     font-size: 0.7em;
     padding: 0.7em 0;
-    transition: 1s;
+    transition: 500ms;
     width: 10em;
 }
 
-.principal__conteudo-botao-jogar:hover {
-    background: #555542;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.301);
-    transform: scale(1.1);
+.principal__conteudo-botao-jogar:hover, .dark .principal__conteudo-botao-jogar:hover {
+    opacity: 0.7;
 }
 
 .dark .principal__conteudo-botao-jogar {
-    background: #555542;
+    background: black;
 }

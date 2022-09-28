@@ -8,13 +8,14 @@
     width: 10em;
 }
 
-.cabecalho__botao:hover {
-    background: black;
-    transform: scale(1.2);
+.cabecalho__botao:hover, .dark .cabecalho__botao:hover {
+    background: white;
+    color: black;
+    border-color: black;
 }
 
-.cabecalho__botao:active {
-    background: grey;
+.dark .cabecalho__botao {
+    background: black;
 }
 
 @media screen and (min-width: 0) {
@@ -26,5 +27,10 @@
 @media screen and (min-width: 640px) {
     .cabecalho__botao {
         margin: 0;
+    }
+
+    .cabecalho__botao:active, .dark .cabecalho__botao:active  {
+        background: black;
+        color: white;
     }
 }
