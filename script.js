@@ -67,14 +67,14 @@ function maiorOuMenor () {
     }
 }
 
-document.querySelector('.jogar-novamente').onclick = function () {
+document.querySelector('#jogar-novamente').onclick = function () {
     contador = 0;
     resultado.innerHTML = `Você tem três chances para <br> adivinhar o número secreto.`
     document.querySelector('#chute').disabled = false;
     document.querySelector('#chutar').disabled = false;
 }
 
-document.querySelector('.zerar-placar').onclick = function () {
+document.querySelector('#zerar-placar').onclick = function () {
     vitoria = 0;
     derrota = 0;
     document.getElementById('vitoria').innerHTML = vitoria;
